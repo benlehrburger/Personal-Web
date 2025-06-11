@@ -21,22 +21,23 @@ function HomePage ({}) {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
 
-  const text2type = "I'm on a mission to understand the human condition. Studying people helps me create things that people enjoy, whether it's homemade holiday cards, user experience designs, or artificial intelligence tools. Scroll to explore some highlighted case studies I've worked on.";
+  const systemPrompt = "system_prompt ="; 
   const bio1 = "I'm on a mission to understand the human condition.";
-  const bio2 = "Studying people helps me create things that people enjoy, whether it's homemade holiday cards, user experience designs, or artificial intelligence tools.";
+  const bio2 = "Studying people helps me create tools that people enjoy, from immersive designs to predictive AI.";
   const bio3 = "Scroll to learn more about my work and why it\'s important to me.";
   const typeSpeed = 18;
-  const startDelay1 = 1400;
-  const startDelay2 = 5100;
-  const arrowDelay = 7000;
+  const startDelay1 = 1200;
+  const startDelay2 = 2600;
+  const startDelay3 = 5000;
+  const arrowDelay = 6400;
 
-  const sect1text = "In my work, I\'ve built a metaverse prototype with <IMAGE>, trained a predictive deep learning model for <IMAGE>, designed a cognitive productivity tool at <IMAGE>, and taught <IMAGE> readers about AI ethics.";
+  const sect1text = "In my work, I\'ve advocated for the buyer experience at <IMAGE>, built a metaverse prototype with <IMAGE>, trained a predictive deep learning model for <IMAGE>, and taught <IMAGE> readers about AI ethics.";
 
   const sect1imgs = [
+    "https://raw.githubusercontent.com/benlehrburger/images/main/logos/stubhub-logo.png",
     "https://raw.githubusercontent.com/benlehrburger/images/main/logos/ey-logo.png",
     "https://raw.githubusercontent.com/benlehrburger/images/main/logos/mnl-logo.png",
-    "https://raw.githubusercontent.com/benlehrburger/images/main/logos/herrmann-logo.png",
-    "https://raw.githubusercontent.com/benlehrburger/images/main/logos/ai4a-logo.png",
+    "https://raw.githubusercontent.com/benlehrburger/images/main/logos/ai4a-logo.png"
   ];
 
   const sect2text = "I graduated from <IMAGE> in 2️⃣0️⃣2️⃣3️⃣ with a major in Cognitive Science. My research revolved around the question: “How can understanding the 🧠 help us build better 🛠️?”";
@@ -45,10 +46,10 @@ function HomePage ({}) {
     "https://raw.githubusercontent.com/benlehrburger/images/main/logos/dart-logo.png",
   ]
 
-  const sect3text = "Right now I\’m working at <IMAGE> as a Product Manager, taking on personal projects to integrate human cognition with 🤖 / 🖥️, seeking out good 🍝, and playing 🎸.";
+  const sect3text = "Right now I\’m working as a Deployed Engineer at <IMAGE>, taking on personal projects to integrate human cognition with 🤖 / 🖥️, seeking out good 🍝, and playing 🎸.";
 
   const sect3imgs = [
-    "https://raw.githubusercontent.com/benlehrburger/images/main/logos/stubhub-logo.png",
+    "https://raw.githubusercontent.com/benlehrburger/images/main/logos/windsurf-logo-long.png"
   ]
 
   const projectData = projectObjects();
@@ -103,14 +104,17 @@ function HomePage ({}) {
       <Header />
       <div className="intro-container">
         <div className="home-bio">
+          <div id="system_prompt">
+            <TypewriterComponent text2type={systemPrompt} delay={typeSpeed} element={"#system_prompt"}/>
+          </div>
           <div id="first_line">
-            <TypewriterComponent text2type={bio1} delay={typeSpeed} element={"#first_line"}/>
+            <TypewriterComponent text2type={bio1} delay={typeSpeed} startDelay={startDelay1} element={"#first_line"}/>
           </div>
           <div id="second_line">
-            <TypewriterComponent text2type={bio2} delay={typeSpeed} startDelay={startDelay1} element={"#second_line"}/>
+            <TypewriterComponent text2type={bio2} delay={typeSpeed} startDelay={startDelay2} element={"#second_line"}/>
           </div>
           <div id="third_line">
-            <TypewriterComponent text2type={bio3} delay={typeSpeed} startDelay={startDelay2} element={"#third_line"}/>
+            <TypewriterComponent text2type={bio3} delay={typeSpeed} startDelay={startDelay3} element={"#third_line"}/>
           </div>
         </div>
         <div className="scroll-arrow">
@@ -120,28 +124,30 @@ function HomePage ({}) {
       <div>
         <BackToTopButton />
       </div>
-      <div style={{ marginTop: "-100px" }}>
+      <div style={{ marginTop: "-250px" }}>
         <Parallax 
           textWithImages={sect2text} 
           imageUrls={sect2imgs}
           sideCardComponents={sect2cards}
         />
       </div>
-      <div style={{ marginTop: "-150px" }}>
+      <div style={{ marginTop: "-250px" }}>
         <OppoParallax 
           textWithImages={sect1text} 
           imageUrls={sect1imgs}
           sideCardComponents={sect1cards}
         />
       </div>
-      <div style={{ marginTop: "-150px" }}>
+      <div style={{ marginTop: "-250px" }}>
         <Parallax 
           textWithImages={sect3text} 
           imageUrls={sect3imgs}
           sideCardComponents={sect3cards}
         />
       </div>
-      <Footer typeWrite={true} />
+      <div style={{ marginTop: "-75px" }}>
+        <Footer typeWrite={true} />
+      </div>
     </div>
   );
 };

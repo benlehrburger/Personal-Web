@@ -41,8 +41,12 @@
 }
 
 .home-bio {
-  font-size: 1.2em;
-  width: 40%;
+  /* Linear font-size scaling from 0.95em at 490px to 1.2em at 950px */
+  font-size: clamp(0.95em, 0.82em + 0.28vw, 1.2em);
+  
+  /* Linear width scaling from 40% at 850px+ to 55% at 650px- */
+  width: clamp(40%, 85% - 45vw, 55%);
+  
   height: 40vh;
   max-width: 650px;
   margin-top: 50px;
@@ -51,45 +55,7 @@
   flex-direction: column;
 }
 
-@media (max-width: 950px) {
-  .home-bio {
-    font-size: 1.1em;
-  }
-}
-
-@media (max-width: 900px) {
-  .home-bio {
-    font-size: 1.08em;
-  }
-}
-
-@media (max-width: 850px) {
-  .home-bio {
-    width: 45%;
-  }
-}
-
-@media (max-width: 750px) {
-  .home-bio {
-    font-size: 1.05em;
-    width: 50%;
-  }
-}
-
-@media (max-width: 650px) {
-  .home-bio {
-    font-size: 1.05em;
-    width: 55%;
-  }
-}
-
-@media (max-width: 550px) {
-  .home-bio {
-    font-size: 0.95em;
-    width: 54%;
-  }
-}
-
+/* Keep only the margin-top adjustment for small screens */
 @media (max-width: 490px) {
   .home-bio {
     margin-top: -35px;
@@ -126,7 +92,7 @@
 .sidecard-container-right {
   display: flex;
   margin-bottom: 7vh;
-  margin-right: 3vw;
+  margin-right: 2vw;
 
   &:last-child {
     margin-bottom: 0;
@@ -365,8 +331,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-left: 3vw;
-  margin-right: 5vw;
+  margin-left: 4vw;
+  margin-right: 6vw;
   width: 100%;
   height: 60vh;
   min-height: 300px;

@@ -13,7 +13,7 @@ const FooterContainer = styled('footer')`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: ${({ typeWrite }) => (typeWrite ? '50px' : '10px')};
+  margin-bottom: ${({ typeWrite }) => (typeWrite ? '20px' : '10px')};
 `;
 
 const IconContainer = styled('div')`
@@ -66,7 +66,7 @@ function Footer({ typeWrite }) {
           <EmailIcon fontSize="medium" />
         </Icon>
       </IconContainer>
-      <Address>© 2023 Ben Lehrburger</Address>
+      <Address>© 2025 Ben Lehrburger</Address>
     </FooterContainer>
   );
 }

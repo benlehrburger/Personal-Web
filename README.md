@@ -1,4 +1,4 @@
-# Ben Lehrburger's Personal Website © 2023
+# Ben Lehrburger's Personal Website © 2025
 
 Up-to-date hash-routed React App deployed to GH Pages @ [https://www.benlehrburger.me](https://www.benlehrburger.me/).
 

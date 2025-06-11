@@ -46,12 +46,12 @@ const useTypewriter = (text, delay, element, startDelay) => {
   return typedText;
 };
 
-const TypewriterComponent = ({ text2type, delay, element, startDelay }) => {
+const TypewriterComponent = ({ text2type, delay, element, startDelay, fontSize }) => {
   const typedText = useTypewriter(text2type, delay, element, startDelay);
 
   return (
     <div>
-      <p>{typedText}</p>
+      <p style={fontSize ? { fontSize } : null}>{typedText}</p>
     </div>
   );
 };
