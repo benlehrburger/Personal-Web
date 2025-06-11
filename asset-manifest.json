@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Personal-Web/static/css/main.e3ae1977.css",
-    "main.js": "/Personal-Web/static/js/main.9b6728c9.js",
+    "main.css": "/Personal-Web/static/css/main.b1250fbb.css",
+    "main.js": "/Personal-Web/static/js/main.304a1b2c.js",
     "static/media/IMG_9883.JPG": "/Personal-Web/static/media/IMG_9883.72a5bab71a4ba7e0deeb.JPG",
     "static/media/agora-cover.png": "/Personal-Web/static/media/agora-cover.074cc007fd160036286c.png",
     "static/media/IMG_3594.jpg": "/Personal-Web/static/media/IMG_3594.f521835027b884636966.jpg",
@@ -165,7 +165,6 @@
     "static/media/r3.jpg": "/Personal-Web/static/media/r3.e5a5fcedd9e4359d9778.jpg",
     "static/media/r2.jpg": "/Personal-Web/static/media/r2.9fbfc8b3232f0b617333.jpg",
     "static/media/s1.jpg": "/Personal-Web/static/media/s1.a6a59915fa031e8142d5.jpg",
-    "static/media/dart-logo.png": "/Personal-Web/static/media/dart-logo.b2244d35c32112b4b6e0.png",
     "static/media/IMG_4408.JPG": "/Personal-Web/static/media/IMG_4408.4532f1635653ce941369.JPG",
     "static/media/Input-min (2).jpg": "/Personal-Web/static/media/Input-min (2).e9fb9f0cc966cce821a4.jpg",
     "static/media/g7.png": "/Personal-Web/static/media/g7.a89f10ed1418b239d0ac.png",
@@ -177,18 +176,14 @@
     "static/media/gal7.png": "/Personal-Web/static/media/gal7.ff604a514e7c9e1ea4b3.png",
     "static/media/art-cover.jpg": "/Personal-Web/static/media/art-cover.1873854baaa25e8f1948.jpg",
     "static/media/s2.jpg": "/Personal-Web/static/media/s2.1873854baaa25e8f1948.jpg",
-    "static/media/stubhub-logo.png": "/Personal-Web/static/media/stubhub-logo.735a49bda3f8177dca2d.png",
     "static/media/img6.png": "/Personal-Web/static/media/img6.a5d27f28137bf0e17772.png",
-    "static/media/herrmann-logo.png": "/Personal-Web/static/media/herrmann-logo.899236e6f2beedc539fa.png",
     "static/media/original-min.png": "/Personal-Web/static/media/original-min.4936c02a56d82d8a40e2.png",
     "static/media/IMG_1160.jpeg": "/Personal-Web/static/media/IMG_1160.2e1960194a08f268acae.jpeg",
-    "static/media/mnl-logo.png": "/Personal-Web/static/media/mnl-logo.c3c7a16d63416b97ff9c.png",
     "static/media/IMG_3844.PNG": "/Personal-Web/static/media/IMG_3844.2c9b4ab8b386c6d87eb0.PNG",
     "static/media/Epoch50-2 copy-min.png": "/Personal-Web/static/media/Epoch50-2 copy-min.327428c7794531a5e135.png",
     "static/media/Epoch50-1-min.png": "/Personal-Web/static/media/Epoch50-1-min.025ce3b18fcaf908dcee.png",
     "static/media/d1.png": "/Personal-Web/static/media/d1.ecf91acaa1bb692bb1d2.png",
     "static/media/g5.jpg": "/Personal-Web/static/media/g5.260148640313255ed3b8.jpg",
-    "static/media/ai4a-logo.png": "/Personal-Web/static/media/ai4a-logo.50d0737e5eb9db5c20a4.png",
     "static/media/g6.jpg": "/Personal-Web/static/media/g6.8b304eda21c09458bd75.jpg",
     "static/media/im1.png": "/Personal-Web/static/media/im1.c8f34c203639e9bfb74f.png",
     "static/media/img4.jpg": "/Personal-Web/static/media/img4.94d8677cec55f2ce481e.jpg",
@@ -196,11 +191,11 @@
     "static/media/g6.png": "/Personal-Web/static/media/g6.29ffde4ef2637b9d3569.png",
     "static/media/g5.png": "/Personal-Web/static/media/g5.15dc3362458694fbfd71.png",
     "index.html": "/Personal-Web/index.html",
-    "main.e3ae1977.css.map": "/Personal-Web/static/css/main.e3ae1977.css.map",
-    "main.9b6728c9.js.map": "/Personal-Web/static/js/main.9b6728c9.js.map"
+    "main.b1250fbb.css.map": "/Personal-Web/static/css/main.b1250fbb.css.map",
+    "main.304a1b2c.js.map": "/Personal-Web/static/js/main.304a1b2c.js.map"
   },
   "entrypoints": [
-    "static/css/main.e3ae1977.css",
-    "static/js/main.9b6728c9.js"
+    "static/css/main.b1250fbb.css",
+    "static/js/main.304a1b2c.js"
   ]
 }
