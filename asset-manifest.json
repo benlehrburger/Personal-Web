@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Personal-Web/static/css/main.b1250fbb.css",
-    "main.js": "/Personal-Web/static/js/main.304a1b2c.js",
+    "main.js": "/Personal-Web/static/js/main.4528d6e8.js",
     "static/media/IMG_9883.JPG": "/Personal-Web/static/media/IMG_9883.72a5bab71a4ba7e0deeb.JPG",
     "static/media/agora-cover.png": "/Personal-Web/static/media/agora-cover.074cc007fd160036286c.png",
     "static/media/IMG_3594.jpg": "/Personal-Web/static/media/IMG_3594.f521835027b884636966.jpg",
@@ -51,6 +51,7 @@
     "static/media/img2.png": "/Personal-Web/static/media/img2.f28ebe6ff78ceb77af89.png",
     "static/media/img3.png": "/Personal-Web/static/media/img3.30eb6ed96f861a7c9760.png",
     "static/media/IMG_2208.jpg": "/Personal-Web/static/media/IMG_2208.8e0508b1f78ea5cb6a97.jpg",
+    "static/media/stubhub-img1.png": "/Personal-Web/static/media/stubhub-img1.2c683929f2f26b68f7ce.png",
     "static/media/IMG_3834.jpg": "/Personal-Web/static/media/IMG_3834.cb8a97b0177ee7b83cfc.jpg",
     "static/media/IMG_4107.jpg": "/Personal-Web/static/media/IMG_4107.05e6cba8e462141a7323.jpg",
     "static/media/IMG_8247.JPG": "/Personal-Web/static/media/IMG_8247.3cfd05a5284c4a138c13.JPG",
@@ -71,6 +72,7 @@
     "static/media/IMG_5063.JPG": "/Personal-Web/static/media/IMG_5063.c338f0b23ffcc733f0b7.JPG",
     "static/media/IMG_3365.JPG": "/Personal-Web/static/media/IMG_3365.646137c4e65cc9609813.JPG",
     "static/media/IMG_4434.JPG": "/Personal-Web/static/media/IMG_4434.4b6140c742d5c48ccde0.JPG",
+    "static/media/stubhub-cover.png": "/Personal-Web/static/media/stubhub-cover.cf4b1153914de4e1445d.png",
     "static/media/d1.jpg": "/Personal-Web/static/media/d1.2a0f07c3bcebe1ab4e16.jpg",
     "static/media/h1.jpg": "/Personal-Web/static/media/h1.77b731995aac020afe41.jpg",
     "static/media/IMG_0965.JPG": "/Personal-Web/static/media/IMG_0965.46d13a3053efb86329c6.JPG",
@@ -82,6 +84,7 @@
     "static/media/img5.png": "/Personal-Web/static/media/img5.c9124a6797f5080501f4.png",
     "static/media/wb3.png": "/Personal-Web/static/media/wb3.c4742836886f7df8739c.png",
     "static/media/IMG_3435.JPG": "/Personal-Web/static/media/IMG_3435.45774d242904d8059ce0.JPG",
+    "static/media/stubhub-img2.png": "/Personal-Web/static/media/stubhub-img2.bb88603571f5722b3a98.png",
     "static/media/IMG_8366.JPG": "/Personal-Web/static/media/IMG_8366.03aeaf4209d124aaa4b2.JPG",
     "static/media/p1.jpg": "/Personal-Web/static/media/p1.e631fbddd96652f78e2b.jpg",
     "static/media/g3.png": "/Personal-Web/static/media/g3.33827eef3584341ecbc2.png",
@@ -126,6 +129,7 @@
     "static/media/listen-cover.png": "/Personal-Web/static/media/listen-cover.bf3ad61aac341ec3635a.png",
     "static/media/herrmann-cover.png": "/Personal-Web/static/media/herrmann-cover.587b31ec0ffcb4d4cf3c.png",
     "static/media/img1.png": "/Personal-Web/static/media/img1.7aa7e0fbe2782c09dee9.png",
+    "static/media/stubhub-img4.png": "/Personal-Web/static/media/stubhub-img4.54cce2f18cbb5e5250c4.png",
     "static/media/g4.png": "/Personal-Web/static/media/g4.11cb85fe1545564e3f25.png",
     "static/media/g1.png": "/Personal-Web/static/media/g1.d8af41b0dd85172105ad.png",
     "static/media/Input-min.jpg": "/Personal-Web/static/media/Input-min.55bae8d2d6a9b33c5028.jpg",
@@ -134,6 +138,7 @@
     "static/media/IMG_5042.JPG": "/Personal-Web/static/media/IMG_5042.b22f99ed4f296faadd64.JPG",
     "static/media/IMG_1480.PNG": "/Personal-Web/static/media/IMG_1480.578974f4100450687664.PNG",
     "static/media/IMG_4438.JPG": "/Personal-Web/static/media/IMG_4438.26e08aa6a75fd3bd2d12.JPG",
+    "static/media/stubhub-img5.png": "/Personal-Web/static/media/stubhub-img5.5d162b97fe8e0e4f016e.png",
     "static/media/b3.jpg": "/Personal-Web/static/media/b3.38e21b31ed2c179735c8.jpg",
     "static/media/IMG_5050.JPG": "/Personal-Web/static/media/IMG_5050.dd07ba2fd075303b4a5b.JPG",
     "static/media/IMG_3133.jpg": "/Personal-Web/static/media/IMG_3133.9b3e456f0186dd6246d3.jpg",
@@ -160,6 +165,7 @@
     "static/media/Epoch100.png": "/Personal-Web/static/media/Epoch100.90d40618d85725b81f90.png",
     "static/media/im4.png": "/Personal-Web/static/media/im4.2e6496c613e3ae893244.png",
     "static/media/IMG_0064.JPG": "/Personal-Web/static/media/IMG_0064.e2a0ae508334d82d3615.JPG",
+    "static/media/stubhub-img3.png": "/Personal-Web/static/media/stubhub-img3.684f14a1c0a143f059a5.png",
     "static/media/img3.jpg": "/Personal-Web/static/media/img3.a295af81b9aa5446a287.jpg",
     "static/media/IMG_0061.JPG": "/Personal-Web/static/media/IMG_0061.332b566296d18016e672.JPG",
     "static/media/r3.jpg": "/Personal-Web/static/media/r3.e5a5fcedd9e4359d9778.jpg",
@@ -192,10 +198,10 @@
     "static/media/g5.png": "/Personal-Web/static/media/g5.15dc3362458694fbfd71.png",
     "index.html": "/Personal-Web/index.html",
     "main.b1250fbb.css.map": "/Personal-Web/static/css/main.b1250fbb.css.map",
-    "main.304a1b2c.js.map": "/Personal-Web/static/js/main.304a1b2c.js.map"
+    "main.4528d6e8.js.map": "/Personal-Web/static/js/main.4528d6e8.js.map"
   },
   "entrypoints": [
     "static/css/main.b1250fbb.css",
-    "static/js/main.304a1b2c.js"
+    "static/js/main.4528d6e8.js"
   ]
 }
