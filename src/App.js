@@ -14,6 +14,7 @@ import code_project from "./pages/code.js";
 import photo_project from "./pages/photos.js";
 import generative_project from "./pages/generation.js";
 import art_project from "./pages/artwork.js";
+import stubhub_project from "./pages/stubhub.js";
 import PersonalPage from "./pages/personal.js";
 import HomePage from './pages/home.js';
 import ProfessionalPage from './pages/professional.js';
@@ -62,6 +63,8 @@ const DetailsPageRoute = () => {
     project = generative_project;
   } else if (projectId === "artwork") {
     project = art_project;
+  } else if (projectId === "stubhub") {
+    project = stubhub_project;
   } else {
     return <div>Project not found.</div>;
   }

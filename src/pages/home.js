@@ -55,6 +55,7 @@ function HomePage ({}) {
   const projectData = projectObjects();
 
   const sect1cards = [
+    <SideCard project={projectData.stubhub_meta}/>,
     <SideCard project={projectData.echopark_meta}/>,
     <SideCard project={projectData.mnl_meta}/>,
     <SideCard project={projectData.herrmann_meta}/>,

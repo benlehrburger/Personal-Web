@@ -10,6 +10,7 @@ import dartCover from "../assets/dart-cover.jpg";
 import photoCover from "../assets/photo-cover.JPG";
 import genCover from "../assets/gen-cover.png";
 import artCover from "../assets/art-cover.jpg";
+import stubhubCover from "../images/stubhub/stubhub-cover.png";
 
 
 const projectObjects = (() => {
@@ -31,6 +32,15 @@ const projectObjects = (() => {
     projectId: "mnl",
   }
   
+  const stubhub_meta = {
+    header: "Live Event Virtual Assistance",
+    body: "Launching and scaling StubHub's virtual assistant to reduce operational overhead and improve customer support outcomes.",
+    image: stubhubCover,
+    date: "Feb 2024 - Apr 2025",
+    tools: "Claude, React, Figma, Jira",
+    projectId: "stubhub",
+  }
+
   const herrmann_meta = {
     header: "Herrmann Email Plugin",
     body: "I designed and created a proof-of-concept that makes recommendations for writing styles based on email recipients' thinking preferences.",
@@ -124,6 +134,7 @@ const projectObjects = (() => {
   return {
     echopark_meta,
     mnl_meta,
+    stubhub_meta,
     herrmann_meta,
     agora_meta,
     ai4a_meta,
