@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Personal-Web/static/css/main.b1250fbb.css",
-    "main.js": "/Personal-Web/static/js/main.4528d6e8.js",
+    "main.css": "/Personal-Web/static/css/main.6a3e68d1.css",
+    "main.js": "/Personal-Web/static/js/main.cafd1bab.js",
     "static/media/IMG_9883.JPG": "/Personal-Web/static/media/IMG_9883.72a5bab71a4ba7e0deeb.JPG",
     "static/media/agora-cover.png": "/Personal-Web/static/media/agora-cover.074cc007fd160036286c.png",
     "static/media/IMG_3594.jpg": "/Personal-Web/static/media/IMG_3594.f521835027b884636966.jpg",
@@ -197,11 +197,11 @@
     "static/media/g6.png": "/Personal-Web/static/media/g6.29ffde4ef2637b9d3569.png",
     "static/media/g5.png": "/Personal-Web/static/media/g5.15dc3362458694fbfd71.png",
     "index.html": "/Personal-Web/index.html",
-    "main.b1250fbb.css.map": "/Personal-Web/static/css/main.b1250fbb.css.map",
-    "main.4528d6e8.js.map": "/Personal-Web/static/js/main.4528d6e8.js.map"
+    "main.6a3e68d1.css.map": "/Personal-Web/static/css/main.6a3e68d1.css.map",
+    "main.cafd1bab.js.map": "/Personal-Web/static/js/main.cafd1bab.js.map"
   },
   "entrypoints": [
-    "static/css/main.b1250fbb.css",
-    "static/js/main.4528d6e8.js"
+    "static/css/main.6a3e68d1.css",
+    "static/js/main.cafd1bab.js"
   ]
 }
