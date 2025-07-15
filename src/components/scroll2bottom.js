@@ -31,6 +31,22 @@ const FadingInIcon = styled(ExpandMoreIcon)`
   @media (max-width: 900px) {
     transform: translateX(0);
   }
+  
+  @media (max-width: 490px) {
+    margin-top: 0px; 
+  }
+  
+  @media (max-width: 385px) {
+    margin-top: 40px; 
+  }
+  
+  @media (max-width: 325px) {
+    margin-top: 80px; 
+  }
+
+  @media (max-width: 250px) {
+    margin-top: 40px; 
+  }
 `;
 
 function DownToContentButton({ handleClick, delay }) {
