@@ -31,13 +31,13 @@ function HomePage ({}) {
   const startDelay3 = 5000;
   const arrowDelay = 6400;
 
-  const sect1text = "In my work, I\'ve advocated for the buyer experience at <IMAGE>, built a metaverse prototype with <IMAGE>, trained a predictive deep learning model for <IMAGE>, and taught <IMAGE> readers about AI ethics.";
+  const sect1text = "In my work, I\'ve enabled <IMAGE> enterprise clients with agentic coding tools, advocated for the buyer experience at <IMAGE>, built a metaverse prototype with <IMAGE>, and trained a predictive deep learning model for <IMAGE>.";
 
   const sect1imgs = [
+    "https://raw.githubusercontent.com/benlehrburger/images/refs/heads/main/logos/cognition-logo.png",
     "https://raw.githubusercontent.com/benlehrburger/images/main/logos/stubhub-logo.png",
     "https://raw.githubusercontent.com/benlehrburger/images/main/logos/ey-logo.png",
-    "https://raw.githubusercontent.com/benlehrburger/images/main/logos/mnl-logo.png",
-    "https://raw.githubusercontent.com/benlehrburger/images/main/logos/ai4a-logo.png"
+    "https://raw.githubusercontent.com/benlehrburger/images/main/logos/mnl-logo.png"
   ];
 
   const sect2text = "I graduated from <IMAGE> in 2️⃣0️⃣2️⃣3️⃣ with a major in Cognitive Science. My research revolved around the question: “How can understanding the 🧠 help us build better 🛠️?”";
@@ -46,10 +46,10 @@ function HomePage ({}) {
     "https://raw.githubusercontent.com/benlehrburger/images/main/logos/dart-logo.png",
   ]
 
-  const sect3text = "Right now I\’m working as a Deployed Engineer at <IMAGE>, taking on personal projects to integrate human cognition with 🤖 / 🖥️, seeking out good 🍝, and playing 🎸.";
+  const sect3text = "Right now I\’m working on the Applied AI team at <IMAGE>, taking on personal projects to integrate human cognition with 🤖 / 🖥️, seeking out good 🍝, and playing 🎸.";
 
   const sect3imgs = [
-    "https://raw.githubusercontent.com/benlehrburger/images/main/logos/windsurf-logo-long.png"
+    "https://raw.githubusercontent.com/benlehrburger/images/refs/heads/main/logos/anthropic-logo.png"
   ]
 
   const projectData = projectObjects();
